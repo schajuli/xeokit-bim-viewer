@@ -1,0 +1,23 @@
+{
+    "id": "ODE2",
+    "name": "ODE2",
+    "models": [
+        {
+            "id": "design",
+            "name": "Design"
+        }
+    ],
+    "viewerConfigs": {
+    },
+    "viewerContent": {
+        "modelsLoaded": [
+            "design"
+        ]
+    },
+    "viewerState": {
+        "tabOpen": "classes",
+        "expandObjectsTree": 1,
+        "expandClassesTree": 1,
+        "expandStoreysTree": 1
+    }
+}
