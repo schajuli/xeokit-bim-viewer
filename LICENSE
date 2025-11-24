@@ -1,46 +1,7 @@
--------------------------------------------------------------------------
-xeokit-bim-viewer is part of the xeokit SDK, which is licensed under the
-Affero GPL V3 license.
-
-Enterprises wishing to avoid the copy-left restrictions of the AGPL3 can
-obtain a custom and permissive license - see: https://xeokit.io/index.html#pricing
-
-xeokit-bim-viewer contains the following components with MIT and GNU Lesser
-General Public License v3.0:
-
-popper.js
-Copyright (C) Federico Zivolo 2019
-Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
-
-tippyjs
-Copyright (c) 2017-present atomiks
-MIT License [http://www.opensource.org/licenses/mit-license.php]
-
-xeokit-sdk contains the following components with MIT and GNU Lesser
-General Public License v3.0:
-
-Canvas2Image v0.1
-Copyright (c) 2008 Jacob Seidelin, cupboy@gmail.com
-MIT License [http://www.opensource.org/licenses/mit-license.php]
-
-K3D.js V1.0
-Copyright (c) 2012 Ivan Kuckir
-MIT License [http://www.opensource.org/licenses/mit-license.php]
-
-BIMserver-JavaScript-API
-Copyright (c) The open source BIM collective
-GNU Lesser General Public License v3.0
-[https://github.com/opensourceBIM/BIMserver-JavaScript-API/blob/master/license.txt]
-
-Pako
-Copyright (C) 2014-2017 by Vitaly Puzrin and Andrei Tuputcyn
-MIT License [http://www.opensource.org/licenses/mit-license.php]
--------------------------------------------------------------------------
-
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
- Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
@@ -656,3 +617,53 @@ Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 
                      END OF TERMS AND CONDITIONS
+
+---
+xeokit-bim-viewer contains the following components with MIT and GNU Lesser
+General Public License v3.0:
+
+popper.js
+Copyright (C) Federico Zivolo 2019
+Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
+
+tippyjs
+Copyright (c) 2017-present atomiks
+MIT License [http://www.opensource.org/licenses/mit-license.php]
+
+xeokit-sdk contains the following components with MIT and GNU Lesser
+General Public License v3.0:
+
+xeokit also contains the following components with MIT, GNU Lesser
+General Public License v3.0:
+
+Canvas2Image v0.1
+Copyright (c) 2008 Jacob Seidelin, cupboy@gmail.com
+MIT License [http://www.opensource.org/licenses/mit-license.php]
+
+K3D.js V1.0
+Copyright (c) 2012 Ivan Kuckir
+MIT License [http://www.opensource.org/licenses/mit-license.php]
+
+Pako
+Copyright (C) 2014-2017 by Vitaly Puzrin and Andrei Tuputcyn
+MIT License [http://www.opensource.org/licenses/mit-license.php]
+
+Earcut
+Copyright (c) 2024, Mapbox
+ISC License [https://opensource.org/license/isc-license-txt]
+
+xeokit also uses the following components with MPL-2.0 in executable form:
+
+web-ifc
+Copyright (c) 2020-2025 web-ifc contributors
+Link to source code: https://github.com/ThatOpen/engine_web-ifc
+Mozilla Public License, v. 2.0 [https://www.mozilla.org/en-US/MPL/2.0/]
+---
+
+## 📜 Licensing & Commercial Use
+
+xeokit-bim-viewer is licensed under AGPLv3, which requires that any modifications or integrations of xeokit-bim-viewer into a project must also be open-sourced under AGPLv3.
+
+🪧 Need a commercial license? If your company requires xeokit-bim-viewer under a different licensing model for proprietary or closed-source applications, we offer flexible commercial licensing options.
+
+📩 Contact us at contact@creoox.com or visit xeokit.io for more information.

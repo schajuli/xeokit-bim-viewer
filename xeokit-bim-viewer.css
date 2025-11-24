@@ -75,7 +75,7 @@
     padding: 0;
     /*padding-left: 10px;*/
     height: 100%;
-    overflow: hidden;
+    overflow: clip;
 }
 
 .xeokit-tabs::before, .xeokit-tabs::after {
@@ -472,7 +472,7 @@
 
 .xeokit-tree-panel {
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
     height: calc(100% - 150px);
 }
 
@@ -539,37 +539,34 @@
     border: 1px solid black;
     border-radius: 6px;
     padding: 0;
-    width: 220px;
+    width: 200px;
 }
 
 .xeokit-context-menu ul {
     list-style: none;
     margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
     padding: 0;
 }
 
-.xeokit-context-menu ul li {
+.xeokit-context-menu-item {
     list-style-type: none;
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
     color: black;
-    border-bottom: 1px solid gray;
     background: rgba(255, 255, 255, 0.46);
     cursor: pointer;
     width: calc(100% - 30px);
 }
 
-.xeokit-context-menu ul li:hover {
+.xeokit-context-menu-item:hover {
     background: black;
     color: white;
     font-weight: normal;
 }
 
-.xeokit-context-menu ul li span {
+.xeokit-context-menu-item span {
     display: inline-block;
 }
 
@@ -585,6 +582,12 @@
     cursor: default;
     background: #eeeeee;
     font-weight: normal;
+}
+
+.xeokit-context-menu-item-separator {
+    background: rgba(0, 0, 0, 1);
+    height: 1px;
+    width: 100%;
 }
 
 .xeokit-context-submenu {
@@ -824,15 +827,20 @@
     border-color: #99A4AD transparent transparent transparent !important;
 }
 
-
+.xeokit-properties {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 2em - 30px);
+}
 
 .xeokit-accordion {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
     width: 100%;
-    height: auto;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
+    
 }
 .xeokit-accordion .xeokit-accordion-container {
     display: flex;
@@ -882,12 +890,13 @@
     transition: all 0.3s ease-in-out;
 }
 .xeokit-accordion .xeokit-accordion-container .xeokit-accordion-panel {
+    display: none;
     width: 100%;
     color: #cfcfcf;
-    transition: all 0.2s ease-in-out;
+    transition: height 0.3s ease-in-out, opacity 0.2s ease-in-out;
     opacity: 0;
     height: auto;
-    max-height: 0;
+    height: 0;
     padding: 0 10px;
 }
 .xeokit-accordion .xeokit-accordion-container.active .xeokit-accordion-button {
@@ -897,15 +906,17 @@
     transform: rotate(0deg);
 }
 .xeokit-accordion .xeokit-accordion-container.active .xeokit-accordion-panel {
+    display: block;
     padding: 0;
     opacity: 1;
-    max-height: 500px;
 }
 
 
 
 
 .xeokit-propertiesTab .element-attributes {
+    display: flex;
+    flex: 0 0 auto;
     padding-left: 10px;
 }
 
